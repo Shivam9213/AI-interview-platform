@@ -3,7 +3,6 @@ const cookieParser=require("cookie-parser");
 const cors=require("cors");
 const connectDB=require("./config/database");
 const authRouter=require("./routes/auth.routes");
-const testai = require("./services/ai.service");
 
 const app=express();
 connectDB();
